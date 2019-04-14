@@ -1,0 +1,25 @@
+package my1;
+
+public class ruanjian1 {
+	public static void main(String[] args) {
+		float a=6000,x=0;
+		x=Tax(a);
+		System.out.println(x);
+	}
+	public static float Tax(float a) {
+		float x=0;
+		if(a>=1000 && x<5000)
+		{
+			x=(float)(a*0.05);
+		}
+		if(a>=5000 && a<10000)
+		{
+			x=(float)(a*0.08);
+		}
+		if(a>=10000)
+		{
+			x=(float)(a*0.10);
+		}
+		return x;
+	}
+}
