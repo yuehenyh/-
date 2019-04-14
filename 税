@@ -1,11 +1,6 @@
 package my1;
 
 public class ruanjian1 {
-	public static void main(String[] args) {
-		float a=6000,x=0;
-		x=Tax(a);
-		System.out.println(x);
-	}
 	public static float Tax(float a) {
 		float x=0;
 		if(a>=1000 && x<5000)
