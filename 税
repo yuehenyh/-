@@ -1,6 +1,14 @@
 package my1;
 
+import java.util.Scanner;
 public class ruanjian1 {
+	public static void main(String[] args) {
+		float x=0;
+		Scanner sc = new Scanner(System.in);  
+	    float a = sc.nextFloat();
+		x=Tax(a);
+		System.out.println(x);
+	}
 	public static float Tax(float a) {
 		float x=0;
 		if(a>=1000 && x<5000)
