@@ -11,6 +11,10 @@ public class ruanjian1 {
 	}
 	public static float Tax(float a) {
 		float x=0;
+		if(a<1000)
+		{
+			x=0;
+		}
 		if(a>=1000 && x<5000)
 		{
 			x=(float)(a*0.05);
